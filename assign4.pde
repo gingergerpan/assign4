@@ -319,11 +319,11 @@ void loseAnimate() {
 
 
 /*---------Print Text Function-------------*/
-void printText(String text, int size, int posY) {
+void printText(String statusText, int size, int posY) {
   fill(95, 194, 226);
   textAlign(CENTER);
   textSize(size);
-  text(text, 320, posY);
+  text(statusText, 320, posY);
   
   
 }
